@@ -1,0 +1,77 @@
+#monkey {
+  width: 200px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.jumbotron {
+  border-right: solid #42b7ba 2px;
+  border-left: solid #42b7ba 2px;
+  border-top: solid #42b7ba 2px;
+  border-bottom: solid #42b7ba 2px;
+}
+
+.shadow {
+  box-shadow: 20px 20px 75px #888888;
+}
+
+.image{
+  height:300px;
+  width:auto;
+  padding-bottom: 15px;
+
+}
+
+.butt{
+  padding-bottom: 20px;
+}
+
+*{
+  font-family: sans-serif;
+}
+
+.header {
+  display:flex;
+  justify-content: center;
+  text-align: center;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  text-align: center;
+}
+
+.footer {
+  background-color: none;
+  width: 100%;
+  height: 60px;
+  bottom: 0;
+  text-align: center;
+  margin-left: 26%
+}
+
+.carousel-inner>.item>img.photo{
+  height: 300px;
+  width: auto;
+}
+
+.annoying {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+  padding-top: 30px;
+}
+
+.books {
+  display: flex;
+  justify-content: center;
+}
